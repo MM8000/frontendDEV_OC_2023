@@ -161,7 +161,7 @@ Intro
 }
 .intro header {
   position: relative;
-  background: #e09a80;
+  background: #AB634D;
   overflow: hidden;
   width: 40%;
   height: 50em;
@@ -243,7 +243,7 @@ Intro
   color: #ffffff;
   width: 60%;
   float: left;
-  background: #e09a80 url(icons-3-pack.svg);
+  background: #AB634D url(icons-3-pack.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 101%;
@@ -387,6 +387,11 @@ Main
       padding: 0;
     }
   }
+/* 
+__________________________________________________________________________
+main.section_footer
+__________________________________________________________________________
+*/
 .main footer {
   display: block;
   position: absolute;
@@ -419,6 +424,11 @@ Main
       display: inline;
     }
   }
+/* 
+__________________________________________________________________________
+main.section_explanation
+__________________________________________________________________________
+*/
 .main .explanation {
   background: #52212F url(icon-half.svg);
   background-repeat: no-repeat;
@@ -495,6 +505,11 @@ Main
       padding-left: 0;
     }
   }
+/* 
+__________________________________________________________________________
+main.section_participation
+__________________________________________________________________________
+*/
 .main .participation {
   background: #f6efe5;
   position: absolute;
@@ -525,6 +540,11 @@ Main
 .main .participation h3 {
   font-size: 150%;
 }
+/* 
+__________________________________________________________________________
+main.section_benefits
+__________________________________________________________________________
+*/
 .main .benefits {
   background: rgba(171, 255, 240, 0.8) url(icon-circles.svg) no-repeat left top;
   background-size: 100%;
@@ -572,6 +592,11 @@ Main
 .main .benefits h3 {
   font-size: 150%;
 }
+/* 
+__________________________________________________________________________
+main.section_requirements
+__________________________________________________________________________
+*/
 .main .requirements {
   position: absolute;
   -moz-column-count: 2;
@@ -607,9 +632,9 @@ Main
     }
   }
 .main .requirements h3 {
-  color: #df0082;
+  color: #ffffff;
   position: absolute;
-  text-shadow: 4px 4px 8px rgb(255, 255, 255);
+  text-shadow: 2px 2px 8px rgb(0, 0, 0);
   z-index: 3;
   font-size: 300%;
   line-height: 2em;
@@ -629,6 +654,7 @@ Main
   @media (max-width: 53em) {
     .main .requirements h3 {
       color: #0E2C40;
+      text-shadow: 2px 2px 8px rgb(255, 255, 255);
       position: relative;
       font-size: 150%;
       left: 0em;
@@ -682,7 +708,7 @@ Sidebar
 .sidebar {
   margin-top: 75em;
   padding-top: 20em;
-  background: #e09a80;
+  background: #AB634D;
   overflow: hidden;
 }
   @media (max-width: 72em) {
@@ -1155,7 +1181,7 @@ About Page
   color: #ffffff;
   width: 60%;
   float: left;
-  background: #e09a80 url(icons-3-pack2.svg);
+  background: #AB634D url(icons-3-pack2.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 101%;

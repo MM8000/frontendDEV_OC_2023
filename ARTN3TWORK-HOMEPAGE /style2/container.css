@@ -74,7 +74,7 @@
   clear: both;
   align-items: center;
   justify-content: center;
-  background-color: #E09A80;
+  background-color: #AB634D;
   background-image: url("farewell3blu.png");
   background-repeat: no-repeat;
 }
@@ -83,7 +83,7 @@
   box-sizing: border-box;
 }
 
-/* Create three columns of equal width */
+/* three columns of equal width */
 .columns {
   float: left;
   width: 30%;
@@ -91,7 +91,7 @@
   
 }
 
-/* Style the list */
+/* style of list */
 .price {
   list-style-type: none;
   border: 1px solid #51212F;
@@ -101,7 +101,7 @@
   transition: 0.3s;
 }
 
-/* Add shadows on hover */
+/* added shadows on hover */
 .price:hover {
   box-shadow: 0 5vh 5vh 0 rgba(0,0,0,0.3)
 }
@@ -120,12 +120,12 @@
 
 /* List items */
 .price li {
-  background-color: hsla(15, 70%, 61%, 0.6);
+  background-color: #f0c2aec5;
   border-bottom: 1px solid #51212F;
   padding: 1.7em;
   text-align: center;
   font-weight: bold;
-  color: #ffffff;
+  color: #444444;
 }
 
 /* Grey list item */
@@ -148,7 +148,7 @@
   border-radius: 2em;
 }
 .button:hover {
-  background-color:#ffb59d;
+  background-color:#F0C2AE;
   transition: 0.7s;
 }
 
@@ -260,7 +260,7 @@
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-  background-color: #E1815F;
+  background-color: #AB6248;
 }
 
 .styled-table tbody tr:last-of-type {
@@ -373,4 +373,7 @@ input {
   border: none;
   outline: none;
   cursor: pointer;
+}
+.subscribe-btn a{
+  color: #fff;
 }
