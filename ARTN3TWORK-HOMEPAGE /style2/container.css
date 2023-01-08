@@ -1,0 +1,376 @@
+
+/*TABLE STYLE "UL"*/
+.styled-b {
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: -1.1em;
+  margin-bottom: -0.8em;
+  font-size: 1em;
+  font-family: "titlefont";
+  text-align: center;
+  line-height: 1.2;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.721);
+  width: 100%;
+  padding: 2em 0 2em 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-image: url("LOL56.png");
+  background-repeat: no-repeat;
+  background-color: #ffffff15;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.styled-a b:hover {
+  color: #ffffff
+}
+@media (max-width: 53em) {
+  .styled-b {
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 70em) {
+  .styled-b {
+    width: 100%;
+    padding: 1.5em 0 3em 0;
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: -1em;
+    display: flex;
+  }
+}
+.infomercial {
+  background-image: url(LOLposter.png);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 100em;
+  background-size: cover;
+}
+@media only screen and (max-width: 70em) {
+  .infomercial {
+    width: 100%;
+    height: 70em;
+  }
+  
+}
+@media only screen and (max-width: 53em) {
+  .infomercial {
+    max-width: 100%;
+    height: 65em;
+    background-size: contain;
+  }
+}
+
+  .infopages {
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+  display: table;
+  clear: both;
+  align-items: center;
+  justify-content: center;
+  background-color: #E09A80;
+  background-image: url("farewell3blu.png");
+  background-repeat: no-repeat;
+}
+
+.colums {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 30%;
+  padding: 0.2em;
+  
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #51212F;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 5vh 5vh 0 rgba(0,0,0,0.3)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #51212F;
+  color: rgb(220, 220, 220);
+  font-size: 25px;
+}
+.price .header2 {
+  background-color: #EA5F64;
+  color: rgb(220, 220, 220);
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  background-color: hsla(15, 70%, 61%, 0.6);
+  border-bottom: 1px solid #51212F;
+  padding: 1.7em;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #F7EFE5;
+  font-size: 20px;
+  color: #000000;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #BB006C;
+  border: none;
+  color: rgb(220, 220, 220);
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 2em;
+}
+.button:hover {
+  background-color:#ffb59d;
+  transition: 0.7s;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 53em) {
+  .columns {
+    width: 100%;
+  }
+  .infopages {
+    width: 100%;
+  }
+}
+
+/*TABLE STYLE "UL2"*/
+.infopages2 {
+  margin: auto;
+  width: 100%;
+  padding: 0px;
+  display: table;
+  clear: both;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4.2em;
+  background-image: url("farewell2blu.jpeg");
+  background-repeat: no-repeat;
+}
+
+/* INFOTABLE League of Legends */
+
+/*TABLE STYLE "TR"*/
+.styled-a {
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: -1.1em;
+  margin-bottom: -0.8em;
+  font-size: 4em;
+  font-family: "titlefont";
+  text-align: center;
+  line-height: 1.2;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.721);
+  width: 100%;
+  padding: 2em 0 2em 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-image: url("LOL56.png");
+  background-repeat: no-repeat;
+  background-color: #ffffff15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styled-a a:hover {
+  color: #ffffff
+}
+
+@media (max-width: 53em) {
+  .styled-a {
+    padding: 8em 1em 9em 1em;
+    font-size: 1.8em;
+  }
+}
+@media (max-width: 70em) {
+  .styled-a {
+    width: 100%;
+    padding: 1.5em 0 3em 0;
+    font-size: 3em;
+    margin-top: -1.5em;
+    margin-bottom: -1em;
+  }
+}
+.styled-table {
+  background-color: #e0998034;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  text-align: center;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.419);
+  margin: auto;
+  width: 62%;
+  padding: 0px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.styled-table:hover {
+  box-shadow: 0 5vh 5vh 0 rgba(0,0,0,0.3)
+}
+
+.styled-table thead tr {
+  background-color: #51212F;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #51212F;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #E1815F;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #51212F;
+}
+
+.styled-table tbody tr.active-row {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffce5d;
+  background-color:rgba(51, 51, 51, 0.75);
+}
+
+.styled-table tbody tr.simple-row {
+  color: #ffffff;
+}
+.styled-table tbody tr.simple-row2 {
+  color: #ffffff;
+  background-color:rgba(51, 51, 51, 0.75);
+}
+
+.styled-table::after {
+  content: url('../style2/jinx3.svg');
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+}
+
+/* HTML FORM ELEMENT */
+
+.wrapper2 {
+  height: 70vh;
+  position: relative;
+  margin: auto;
+  margin-top: 25em;
+  display: flex;
+  padding: 10em 0em 20em 0em;
+}
+@media (max-width: 53em) {
+  .wrapper2 {
+    padding: 0em 0em 20em 0em;
+    margin-top: -6em;
+    background-color:#000000;
+  }
+}
+@media (max-width: 70em) {
+  .wrapper2 {
+    padding: 1em 0em 5em 0em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    
+  }
+}
+.fas.fa-envelope {
+  color: #fff;
+  font-size: 2rem;
+  background: #333;
+  padding: 1rem;
+  border-radius: 100%;
+  margin: 0 0 1rem 0;
+  background-image: url("jinx3.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+}
+
+.card-content {
+  max-width: 30rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 1rem;
+  padding: 4rem .5rem;
+  box-shadow: 1px 1px 2rem rgba(0,0,0,.3);
+  text-align: center;
+}
+
+.card-content h3 {
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+}
+
+.card-content p {
+  font-size: .8rem;
+  margin: 0 0 2rem 0;
+}
+
+input {
+  padding: .8rem 1rem;
+  width: 40%;
+  border-radius: 5rem;
+  outline: none;
+  border: .1rem solid #d1d1d1;
+  font-size: .7rem;
+}
+
+::placeholder {
+  color: #d1d1d1;
+}
+
+.subscribe-btn {
+  padding: .8rem 2rem;
+  border-radius: 5rem;
+  background: linear-gradient(90deg, #E09A80, #51212F);
+  color: #fff;
+  font-size: .7rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
