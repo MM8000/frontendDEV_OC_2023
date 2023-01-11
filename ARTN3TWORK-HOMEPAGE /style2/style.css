@@ -203,7 +203,7 @@ Intro
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.intro header h2 {
+.intro header h3 {
   position: relative;
   background: #52212F url(icon-star.svg) no-repeat left bottom;
   background-size: 101%;
@@ -220,7 +220,7 @@ Intro
   box-sizing: border-box;
 }
   @media (max-width: 70em) {
-    .intro header h2 {
+    .intro header h3 {
       background: #52212F url(icon-star.svg) no-repeat left bottom;
       background-size: 49%;
       width: 66.666%;
@@ -229,7 +229,7 @@ Intro
     }
   }
   @media (max-width: 53em) {
-    .intro header h2 {
+    .intro header h3 {
       background: #52212F url(icon-star.svg) no-repeat left bottom;
       background-size: 49%;
       font-size: 200%;
@@ -589,7 +589,7 @@ __________________________________________________________________________
       padding: 7em 1em 1em 1em;
     }
   }
-.main .benefits h3 {
+.main .benefits h2 {
   font-size: 150%;
 }
 /* 
@@ -631,7 +631,7 @@ __________________________________________________________________________
       padding: 1em;
     }
   }
-.main .requirements h3 {
+.main .requirements h2 {
   color: #ffffff;
   position: absolute;
   text-shadow: 2px 2px 8px rgb(0, 0, 0);
@@ -652,7 +652,7 @@ __________________________________________________________________________
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
   @media (max-width: 53em) {
-    .main .requirements h3 {
+    .main .requirements h2 {
       color: #0E2C40;
       text-shadow: 2px 2px 8px rgb(255, 255, 255);
       position: relative;
@@ -723,7 +723,7 @@ Sidebar
     }
   }
 
-.sidebar .design-selection h3 {
+.sidebar .design-selection h2 {
   color: #ffffff;
   font-size: 150%;
   line-height: 1em;
@@ -736,14 +736,14 @@ Sidebar
   box-sizing: border-box;
 }
   @media (max-width: 70em) {
-    .sidebar .design-selection h3 {
+    .sidebar .design-selection h2 {
       width: 100%;
       padding: 0 1em;
       text-align: right;
     }
   }
   @media (max-width: 53em) {
-    .sidebar .design-selection h3 {
+    .sidebar .design-selection h2 {
       text-align: left;
     }
   }
@@ -957,7 +957,7 @@ Sidebar
       padding: 4em 1em 1em 1em;
     }
   }
-.sidebar .design-archives h3 {
+.sidebar .design-archives h2 {
   position: absolute;
   color: #ffffff;
   z-index: 3;
@@ -977,7 +977,7 @@ Sidebar
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
   @media (max-width: 53em) {
-    .sidebar .design-archives h3 {
+    .sidebar .design-archives h2 {
       top: 0;
       left: 0;
       position: relative;
@@ -1141,7 +1141,7 @@ About Page
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.intro2 header h2 {
+.intro2 header h3 {
   position: relative;
   background: #52212F url(Micha01.png) no-repeat left bottom;
   background-size: 101%;
@@ -1158,7 +1158,7 @@ About Page
   box-sizing: border-box;
 }
   @media (max-width: 70em) {
-    .intro2 header h2 {
+    .intro2 header h3 {
       background: #52212F url(Micha01.png) no-repeat left bottom;
       background-size: 49%;
       width: 66.666%;
@@ -1167,7 +1167,7 @@ About Page
     }
   }
   @media (max-width: 53em) {
-    .intro2 header h2 {
+    .intro2 header h3 {
       background: #52212F url(Micha01.png) no-repeat left bottom;
       background-size: 49%;
       font-size: 200%;
@@ -1247,12 +1247,12 @@ About Page
       padding: 0 1em;
     }
 }
-.intro2 .preamble h3 {
+.intro2 .preamble h2 {
   font-size: 150%;
   margin-right: 35%;
 }
   @media (max-width: 53em) {
-    .intro2 .preamble h3 {
+    .intro2 .preamble h2 {
       margin-right: 0;
     }
   }
